@@ -1,0 +1,18 @@
+/Users/siraj/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Starting Layout Parser API...
+Loading model (this may take a moment on first run)...
+Trying to load model: lp://detectron2/PubLayNet/faster_rcnn_R_50_FPN_3x/config
+Model loaded successfully! Type: <class 'layoutparser.models.detectron2.layoutmodel.Detectron2LayoutModel'>
+Model pre-loaded successfully! Type: <class 'layoutparser.models.detectron2.layoutmodel.Detectron2LayoutModel'>
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.2.0.2:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [12/Nov/2025 23:32:28] "GET /api/health HTTP/1.1" 200 -
+/Users/siraj/Library/Python/3.9/lib/python/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp:3527.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+127.0.0.1 - - [12/Nov/2025 23:40:44] "POST /api/parse-layout HTTP/1.1" 200 -
